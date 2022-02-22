@@ -305,3 +305,9 @@ rules:
     resources:
       - kafkas
       - kafkausers
+  - verbs:
+      - '*'
+    apiGroups:
+      - monitoring.coreos.com
+    resources:
+      - servicemonitors
